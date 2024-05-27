@@ -1,0 +1,204 @@
+{
+  "users": [
+    {
+      "id": "0.9507087399712122",
+      "name": "Bobur",
+      "surname": "Makhmadkulov",
+      "email": "boburmakhmadkulov05@gmail.com",
+      "password": "12012005"
+    },
+    {
+      "id": "0.5280024455432635",
+      "name": "Dragon",
+      "surname": "Dinosaur",
+      "email": "Dragon@gmail.com",
+      "password": "1234"
+    }
+  ],
+  "wallets": [
+    {
+      "id": "0.1630789461543083",
+      "userId": "0.9507087399712122",
+      "title": "My first wallet",
+      "currency": "USD",
+      "balance": "18000"
+    },
+    {
+      "id": "0.7163282078065469",
+      "userId": "0.9507087399712122",
+      "title": "My second wallet",
+      "currency": "USD",
+      "balance": "65000"
+    },
+    {
+      "id": "0.58807386273691",
+      "userId": "0.9507087399712122",
+      "title": "Visa",
+      "currency": "USD",
+      "balance": "7000"
+    },
+    {
+      "id": "0.0934273777288237",
+      "userId": "0.9507087399712122",
+      "title": "MasterCard",
+      "currency": "USD",
+      "balance": "70000"
+    }
+  ],
+  "transactions": [
+    {
+      "id": "768060248591",
+      "userId": "0.9507087399712122",
+      "walletId": "0.1630789461543083",
+      "amount": "30000",
+      "category": "Car",
+      "date": "27.05.2024",
+      "time": "11:01:21",
+      "wallet": {
+        "title": "My first wallet",
+        "currency": "USD",
+        "balance": "1000000"
+      }
+    },
+    {
+      "id": "453216554029",
+      "userId": "0.9507087399712122",
+      "walletId": "0.0934273777288237",
+      "amount": "100000",
+      "category": "House",
+      "date": "27.05.2024",
+      "time": "12:02:00",
+      "wallet": {
+        "title": "MasterCard",
+        "currency": "USD",
+        "balance": "270000"
+      }
+    },
+    {
+      "id": "370159425654",
+      "userId": "0.9507087399712122",
+      "walletId": "0.1630789461543083",
+      "amount": "900000",
+      "category": "House",
+      "date": "27.05.2024",
+      "time": "12:03:58",
+      "wallet": {
+        "title": "My first wallet",
+        "currency": "USD",
+        "balance": "970000"
+      }
+    },
+    {
+      "id": "680737443959",
+      "userId": "0.9507087399712122",
+      "walletId": "0.7163282078065469",
+      "amount": "1000",
+      "category": "Phone",
+      "date": "27.05.2024",
+      "time": "12:04:20",
+      "wallet": {
+        "title": "My second wallet",
+        "currency": "USD",
+        "balance": "90000"
+      }
+    },
+    {
+      "id": "593425713634",
+      "userId": "0.9507087399712122",
+      "walletId": "0.7163282078065469",
+      "amount": "4000",
+      "category": "Computer",
+      "date": "27.05.2024",
+      "time": "12:05:05",
+      "wallet": {
+        "title": "My second wallet",
+        "currency": "USD",
+        "balance": "89000"
+      }
+    },
+    {
+      "id": "141233985424",
+      "userId": "0.9507087399712122",
+      "walletId": "0.1630789461543083",
+      "amount": "2000",
+      "category": "Phone",
+      "date": "27.05.2024",
+      "time": "12:05:32",
+      "wallet": {
+        "title": "My first wallet",
+        "currency": "USD",
+        "balance": "70000"
+      }
+    },
+    {
+      "id": "668304239213",
+      "userId": "0.9507087399712122",
+      "walletId": "0.58807386273691",
+      "amount": "7000",
+      "category": "Computer",
+      "date": "27.05.2024",
+      "time": "12:06:02",
+      "wallet": {
+        "title": "Visa",
+        "currency": "USD",
+        "balance": "15000"
+      }
+    },
+    {
+      "id": "778346023952",
+      "userId": "0.9507087399712122",
+      "walletId": "0.0934273777288237",
+      "amount": "100000",
+      "category": "Helicopter",
+      "date": "27.05.2024",
+      "time": "12:07:44",
+      "wallet": {
+        "title": "MasterCard",
+        "currency": "USD",
+        "balance": "170000"
+      }
+    },
+    {
+      "id": "894012216523",
+      "userId": "0.9507087399712122",
+      "walletId": "0.7163282078065469",
+      "amount": "20000",
+      "category": "Car",
+      "date": "27.05.2024",
+      "time": "12:08:05",
+      "wallet": {
+        "title": "My second wallet",
+        "currency": "USD",
+        "balance": "85000"
+      }
+    },
+    {
+      "id": "655532235582",
+      "userId": "0.9507087399712122",
+      "walletId": "0.1630789461543083",
+      "amount": "50000",
+      "category": "Car",
+      "date": "27.05.2024",
+      "time": "12:08:19",
+      "wallet": {
+        "title": "My first wallet",
+        "currency": "USD",
+        "balance": "68000"
+      }
+    },
+    {
+      "id": "441038975769",
+      "userId": "0.9507087399712122",
+      "walletId": "0.58807386273691",
+      "amount": "1000",
+      "category": "Phone",
+      "date": "27.05.2024",
+      "time": "15:47:14",
+      "wallet": {
+        "title": "Visa",
+        "currency": "USD",
+        "balance": "8000"
+      }
+    }
+  ]
+}

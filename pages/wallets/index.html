@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/pages/wallets/index.css">
+    <script defer src="/modules/guard.js"></script>
+    <title>Wallets</title>
+</head>
+
+<body>
+
+    <header></header>
+    <div class="sidebar"></div>
+    <div class="container">
+        <div class="top-wallets">
+            <span>Wallets</span>
+            <button id="add-wallet">Add Wallet</button>
+        </div>
+        <div class="wallets"></div>
+    </div>
+
+    <div id="modal">
+        <form name="add-wallet" id="content">
+            <span>Adding a new Wallet</span>
+            <input type="text" placeholder="Title" name="title">
+            <select name="currency" id="select">
+                <option value="currency">Currency</option>
+                <option value="USD">USD</option>
+                <option value="RUB">RUB</option>
+                <option value="UZS">UZS</option>
+            </select>
+            <input type="number" placeholder="Balance" name="balance">
+            <button>Add</button>
+        </form>
+    </div>
+
+    <script type="module" src="/pages/wallets/index.js"></script>
+
+</body>
+
+</html>

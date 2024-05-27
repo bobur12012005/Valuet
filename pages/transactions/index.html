@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/pages/transactions/index.css">
+    <script defer src="/modules/guard.js"></script>
+    <title>Transactions</title>
+</head>
+
+<body>
+
+    <header></header>
+    <div class="sidebar"></div>
+    <div class="container">
+        <div class="top-transactions">
+            <span>Transactions</span>
+            <button id="add-transaction">Add Transaction</button>
+        </div>
+        <div class="transaction-side">
+            <div class="column-names">
+                <span class="number-top">No</span>
+                <span class="time-top">Time</span>
+                <span class="date-top">Date</span>
+                <span class="wallet-title-top">Wallet</span>
+                <span class="id-number-top">ID-Number</span>
+                <span class="category-top">Category</span>
+                <span class="amount-top">Money-Amount</span>
+            </div>
+            <div class="transactions"></div>
+        </div>
+    </div>
+
+    <div id="modal">
+        <form name="add-transaction" id="content">
+            <span>Adding a new Transaction</span>
+            <select name="wallet"></select>
+            <input type="number" placeholder="Amount" name="amount">
+            <input type="text" placeholder="Category" name="category">
+            <button>Add</button>
+        </form>
+    </div>
+
+    <script type="module" src="/pages/transactions/index.js"></script>
+
+</body>
+
+</html>
