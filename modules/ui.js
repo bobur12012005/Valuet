@@ -1,3 +1,5 @@
+let user = JSON.parse(localStorage.getItem('user'))
+
 export function createSidebar(place) {
     place.innerHTML = `        
         <div class="sidebarTop">
@@ -42,6 +44,9 @@ export function createSidebar(place) {
     let transactions = document.querySelector('.transactions')
     let exchange = document.querySelector('.exchange')
     let logout = document.querySelector('.logout')
+    let nameSurname = document.querySelector('.fullname span')
+
+    nameSurname.innerHTML = user.name + " " + user.surname
 
     overview.onclick = () => {
         location.assign('/')
